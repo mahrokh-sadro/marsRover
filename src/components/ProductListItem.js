@@ -13,7 +13,7 @@ const ProductListItem = (props) => {
         <img
           src={`${props?.item?.img_src}?w=248&fit=crop&auto=format`}
           srcSet={`${props?.item?.img_src}?w=248&fit=crop&auto=format&dpr=2 2x`}
-          alt={props.item.title}
+          alt="aaa"
           loading="lazy"
         />
         <div style={{ width: "2rem" }} className="ml-2 mt-2 mt-n5">
