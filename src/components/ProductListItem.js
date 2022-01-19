@@ -18,7 +18,7 @@ const ProductListItem = (props) => {
           src={props?.item?.img_src}
         />
         <div style={{ width: "2rem" }} className="ml-2 mt-2 mt-n5">
-          <Heart isActive={!active} onClick={() => setActive(!active)} />
+          <Heart isActive={active} onClick={() => setActive(!active)} />
         </div>
         <ImageListItemBar
           sx={{ mr: 2, mt: 2 }}
