@@ -7,14 +7,6 @@ const App = () => {
   const [products, setProducts] = useState([{}]);
 
   return (
-    //     <Router>
-    //  <Routes>
-    //        <Route exact path="/">
-    //         {/* <ProductListingPage products={products} setProducts={setProducts} /> */}
-    //       </Route>
-    //       <Routes>
-    //          </Router>
-
     <Router>
       <Routes>
         <Route

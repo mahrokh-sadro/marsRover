@@ -11,8 +11,8 @@ const ProductListItem = (props) => {
     <>
       <ImageListItem>
         <img
-          src={`${props.item.img_src}?w=248&fit=crop&auto=format`}
-          srcSet={`${props.item.img_src}?w=248&fit=crop&auto=format&dpr=2 2x`}
+          src={`${props?.item?.img_src}?w=248&fit=crop&auto=format`}
+          srcSet={`${props?.item?.img_src}?w=248&fit=crop&auto=format&dpr=2 2x`}
           alt={props.item.title}
           loading="lazy"
         />
