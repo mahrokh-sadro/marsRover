@@ -11,10 +11,11 @@ const ProductListItem = (props) => {
     <>
       <ImageListItem>
         <img
-          src={`${props?.item?.img_src}?w=248&fit=crop&auto=format`}
-          srcSet={`${props?.item?.img_src}?w=248&fit=crop&auto=format&dpr=2 2x`}
+          // src={`${props?.item?.img_src}?w=248&fit=crop&auto=format`}
+          // srcSet={`${props?.item?.img_src}?w=248&fit=crop&auto=format&dpr=2 2x`}
           alt="aaa"
           loading="lazy"
+          src={props?.item?.img_src}
         />
         <div style={{ width: "2rem" }} className="ml-2 mt-2 mt-n5">
           <Heart isActive={!active} onClick={() => setActive(!active)} />
